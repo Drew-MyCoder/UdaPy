@@ -1,6 +1,3 @@
-import os
-import sys  # useful for manipulating different runtime environment
-
 from sqlalchemy import Column, ForeignKey, Integer, String  # useful for our mapper code
 
 from sqlalchemy.ext.declarative import (
