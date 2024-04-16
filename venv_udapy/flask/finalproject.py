@@ -170,7 +170,7 @@ def editMenuItem(restaurant_id, menu_id):
         return redirect(url_for("showMenu", restaurant_id=restaurant_id))
     else:
         return render_template(
-            "editmenuitem.html",
+            "EditMenuitem.html",
             restaurant_id=restaurant_id,
             menu_id=menu_id,
             item=editedItem,
